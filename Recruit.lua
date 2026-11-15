@@ -129,7 +129,7 @@ StaticPopupDialogs["DGF_RECRUIT_INVITE"]={
  OnAccept=function(_,data) R:Send(data) end,timeout=0,whileDead=true,hideOnEscape=true,preferredIndex=3,
 }
 local function label(parent,size,x,y,width)
- local t=parent:CreateFontString(nil,"OVERLAY"); t:SetFont("Fonts\\FRIZQT__.TTF",size,"")
+ local t=parent:CreateFontString(nil,"OVERLAY"); t:SetFont(STANDARD_TEXT_FONT,size,"")
  t:SetPoint("TOPLEFT",x,y); t:SetWidth(width); t:SetJustifyH("LEFT"); t:SetJustifyV("TOP"); return t
 end
 local function button(parent,title,width,x,y,fn)
