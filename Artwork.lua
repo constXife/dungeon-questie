@@ -36,7 +36,7 @@ function A.CreateLocationArtwork(parent)
  f.tiles={}
  f.background=f:CreateTexture(nil,"BACKGROUND"); f.background:SetAllPoints()
  f.background:SetColorTexture(0.29,0.20,0.10,0.12)
- f.caption=f:CreateFontString(nil,"OVERLAY"); f.caption:SetFont("Fonts\\FRIZQT__.TTF",11,"")
+ f.caption=f:CreateFontString(nil,"OVERLAY"); f.caption:SetFont(STANDARD_TEXT_FONT,11,"")
  f.caption:SetPoint("BOTTOMLEFT",4,4); f.caption:SetWidth(292); f.caption:SetTextColor(0.20,0.12,0.05)
  f.marker=f:CreateTexture(nil,"OVERLAY"); f.marker:SetSize(12,12)
  f.marker:SetTexture("Interface\\WorldMap\\WorldMapPartyIcon")
